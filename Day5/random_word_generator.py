@@ -10,6 +10,3 @@ def pick_random_word():
 
     return word_list[selected_index]
 
-
-if __name__ == "__main__":
-    print(pick_random_word())
