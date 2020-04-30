@@ -12,7 +12,7 @@ def get_movie_ids(num=30, page=1):
     # print(links_data.head())
     movie_ids = list(links_data.imdbId)
     start_index = (page-1)*num
-    end_index = start_index + num + 1
+    end_index = start_index + num
     return movie_ids[start_index:end_index]
 
 def scrape_index_page(movie_id):
